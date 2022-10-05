@@ -1,0 +1,92 @@
+body {
+	padding:0;
+	margin:0;
+	font-family:Arial;
+}
+.contenedor {
+	width:100%;
+	max-width:1500px;
+	margin:auto;
+}
+li {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+}
+header {
+	background:url(img/fifa.jpg); 
+}
+.menu {
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+header ul {
+	display:flex;;
+}
+header ul li {
+    margin: 0 3px;
+}
+header ul li a {
+    color:#fff;
+} 
+a:hover {
+	background:#ABA200;
+}
+.galeria {
+	overflow:hidden;
+}
+
+.galeria .foto {
+	width:25%;
+	float:left;
+}
+
+ .galeria .foto img {
+	width:100%;
+	vertical-align:top;
+}
+ .container-add {
+    width:100%;
+	margin: 100px auto ;	
+}
+.container__title {
+	margin:0px;
+	padding:10px;
+ /*background:rgba (120, 65, 40, 1);*/
+	color:black;
+	font-size:30px;
+	text-align:center;
+}
+.container__form {
+	background:green;
+	font-size:30px;
+/*	box-shadow: 0 0 20px #333;*/
+	padding:10px;
+	display:flex;
+    flex-wrap:wrap;
+	align-items:center;
+}
+.container__label {
+	font-size:20px;
+	width:100%;
+}
+.container__input {
+   width:1000px;
+   height:20px;
+ /*  border:4px solid #f6f6f6;*/
+   padding:10px;
+   margin-top:10px;
+   font-size:20px;
+}
+.container__submit {
+	background:#9d0208;
+	color:white;
+	border:none;
+	padding:10px;
+	margin: 5px  ;
+	cursor:pointer; 
+	align-items:center;
+}
+

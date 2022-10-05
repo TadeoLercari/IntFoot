@@ -1,0 +1,224 @@
+body {
+	padding:0;
+	margin:0;
+	font-family:Arial;
+	background:#580700;
+}
+.contenedor {
+	width:100%;
+	max-width:2000px;
+	margin:auto;
+	padding:5px;
+}
+li {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+}
+header {
+	background:url(img/fifa.jpg);
+}
+.menu {
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+header ul {
+	display:flex;
+}
+header ul li {
+    margin: 0 20px;
+}
+header ul li a {
+    color:#fff;
+}
+.titular {
+    color:#fff;
+	display:flex;
+	padding:0 30px;
+	margin:0 30px;
+}
+.galeria {
+	overflow:hidden;
+}
+
+.galeria .foto {
+	width:25%;
+	float:left;
+}
+
+ .galeria .foto img {
+	width:100%;
+	vertical-align:top;
+}
+.contacto {
+	padding: 60px 0;
+}
+
+/*.contacto .titulo {
+	font-size: 34px;
+	line-height:34px;
+	margin-bottom: 40px;
+	font-weight: 300;
+	color:#3895ea;
+	text-align:center
+}
+
+.contacto .formulario {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.contacto .formulario input[type="text"],
+.contacto .formulario input[type="email"],
+ .contacto .formulario textarea {
+	border: 2px solid #3895ea;
+	border-radius: 5px;
+	padding: 15px 20px;
+	font-size: 20px;
+	color:#a4a4a4;
+}
+.contacto .formulario input[type="text"]:focus
+.contacto .formulario input[type="email"]:focus
+.contacto .formulario textarea:focus {
+border: 2px solid #cecece; 
+}
+.contacto .formulario input[type="text"],
+.contacto .formulario input[type="email"] {
+    width:49%;
+	margin-bottom: 15px;
+}
+.contacto .formulario textarea {
+	width: 100%;
+	height: 100px;
+	min-width: 100%;
+	max-width: 100%;
+	min-height:100px;
+	max-height:300px;
+	margin-bottom:15px;
+}
+.contacto .formulario .boton {
+	margin:auto;
+	background:#3895ea; 
+	color:#fff;
+	border: none;
+	border-radius: 3px;
+	padding: 15px 40px;
+	cursor: pointer;
+}
+.contacto .formulario .boton:hover {
+	background:#387bea;
+} */
+/*.contenedor {
+	width: 400px;
+	/*margin: 40px auto;
+	margin: 40px;
+}*/
+
+.formulario .contenedor-inputs{
+	padding: 20px;
+	background: #fff;
+	border-radius:6px 6px 0 0;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"] {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 15px 10px;
+	border:none;
+	border-bottom: 2px solid #ccc;
+	font-family: Arial 27px;
+	font-size: 18px;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus {
+	border-bottom: 2px solid #246eb9;
+}
+
+.formulario input[type="radio"]{
+	display: none;
+}
+
+.formulario .sexo {
+	display: flex;
+	flex-wrap:no-wrap;
+	justify-content:space-between;
+	margin-bottom: 20px;
+}
+
+.formulario .sexo .label-radio {
+	width: 49.5%;
+}
+
+.formulario .sexo .hombre {
+	border-radius: 3px 0 0 3px;
+}
+
+.formulario .sexo .mujer {
+	border-radius: 0 3px 3px 0;
+}
+
+.formulario .label-radio{
+	background: rgba(249,160,63, .4);
+	color: #fff;
+	padding:10px 10px;
+	text-align: center;
+}
+
+.formulario input[type="radio"]:checked + .label-radio{
+	background: #f9a03f;
+	color: #fff;
+}
+
+
+.formulario .terminos {
+	/*margin-bottom: 20px;*/
+	text-align: center;
+	color: #424242;
+}
+
+.formulario .terminos label {
+	margin-left: 10px;
+}
+
+.formulario .error {
+	display: none;
+	margin-top: 20px;
+	border-radius: 3px;
+	background: #ce1818;
+	color: #fff;
+	padding: 15px 10px;
+	padding-left: 40px;
+}
+
+.formulario .btn {
+	width: 100%;
+	text-align: center;
+	background: #246eb9;
+	color: #fff;
+	border: none;
+	display: block;
+	padding: 15px 10px;
+	cursor: pointer;
+	border-radius: 0 0 6px 6px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 18px;
+}
+
+.formulario .btn:hover {
+	background: #4357ad;
+}
+.caja {
+    color:#fff;;
+	display:flex;
+	padding:0 30px;
+	margin:0 30px;
+}
+a {
+	color:#fff;
+}
+

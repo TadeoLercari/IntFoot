@@ -1,0 +1,50 @@
+body {
+	padding:0;
+	margin:0;
+	font-family:Arial;
+}
+.contenedor {
+	width:100%;
+	max-width:1500px;
+	margin:auto;
+}
+li {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+	font-size:20px;
+}
+header {
+	background:url(img/fifa.jpg); 
+}
+.menu {
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+header ul {
+	display:flex;;
+}
+header ul li {
+    margin: 0 5px;
+}
+header ul li a {
+    color:#fff;
+}
+a:hover {
+	background:#3B2111;
+}
+.galeria {
+	overflow:hidden;
+}
+
+.galeria .foto {
+	width:50%;
+	float:left;
+}
+
+ .galeria .foto img {
+	width:100%;
+	vertical-align:top;
+} 

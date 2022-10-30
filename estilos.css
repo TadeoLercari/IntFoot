@@ -185,7 +185,7 @@ border: 2px solid #cecece;
 	margin-left: 10px;
 }
 
-.formulario .error {
+/*.formulario .error {
 	display: none;
 	margin-top: 20px;
 	border-radius: 3px;
@@ -194,7 +194,7 @@ border: 2px solid #cecece;
 	padding: 15px 10px;
 	padding-left: 40px;
 }
-
+*/
 .formulario .btn {
 	width: 100%;
 	text-align: center;
@@ -205,7 +205,7 @@ border: 2px solid #cecece;
 	padding: 15px 10px;
 	cursor: pointer;
 	border-radius: 0 0 6px 6px;
-	font-family: 'Slabo 27px', serif;
+	font-family: Arial 27px;
 	font-size: 18px;
 }
 
@@ -219,6 +219,37 @@ border: 2px solid #cecece;
 	margin:0 30px;
 }
 a {
-	color:#fff;
+	color:#000;
 }
+footer .redes-sociales {
+	background:#FFDE00;
+	padding:10;
+}
+
+footer .contenedor {
+	display:flex;
+	justify-content:center;
+}
+
+footer .redes-sociales a {
+	color:#fff;
+	text-align:center;
+    width: 100px;
+	display:block;
+	padding:15px 0;
+	border-radius: 3px;
+    font-size: 30px;
+	margin: 0 20px;
+} 
+
+ footer .redes-sociales .twitter:hover {
+	background:#1877f2;
+}
+
+footer .redes-sociales .instagram:hover {
+	background:#f77737;
+} 
+footer .redes-sociales .linkedin:hover {
+	background:#083AA9;
+} 
 

@@ -25,9 +25,9 @@ function respuesta(num_pregunta, seleccionada) {
 
 //funcion que compara los arreglos para saber cuantas estuvieron correctas 
 function corregir(){
-	cantidad correctas = 0;
-	for(i=0; i<correctas.lenght;i++) {
-		if(correctas[i]==opcion elegida[i]) {
+	cantidad_correctas = 0;
+	for(i=0; i<correctas.lenght; i++) {
+		if(correctas[i]==opcion_elegida[i]) {
 			cantidad_correctas++;
 		}
 	}
